@@ -1,5 +1,5 @@
 
-#Masd.games
+# Masd.games
 
 Website for MASD GAMES
 MASD is a multiplayer 3D game with blockchain technology. Be the first to create your base and play to earn a MASD token, buy or rent virtual plots of land, houses, items for survival in the game. Create your own clans and communities around the world in the game to participate in competitions for valuable items and MASD tokens together.
