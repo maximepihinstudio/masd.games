@@ -22,9 +22,10 @@ Being inspired by successful games like CS:GO and RUST, MASD-GAMES combines the 
 
 - Сборка проекта осуществляется с помощью сборщика Gulp.
 Производится подключение компоненотов в html файлы. И все js/css/html файлы минифицируются.
-Команда для сборки
+- Команда для сборки
 > gulp build
-Команда для разработки
+
+- Команда для разработки
 > gulp watch
 
 - Перевод сайта был сделан с помощью npm библиотеки `i18n`
@@ -35,5 +36,5 @@ Being inspired by successful games like CS:GO and RUST, MASD-GAMES combines the 
 - Также для удобства работы с переводами был написан отдельный скрипт на nodeJs, который позволит админу удобно добавлять и изменять переводы
 
 
-Сборка прод-версии 
+- Сборка прод-версии 
 > php -f create_prod.php
