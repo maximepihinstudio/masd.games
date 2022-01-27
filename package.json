@@ -1,0 +1,26 @@
+{
+  "name": "web-masd-main",
+  "version": "1.0.0",
+  "description": "Website for MASD MASD is a multiplayer 3D game with blockchain technology. Be the first to create your base and play to earn a MASD token, buy or rent virtual plots of land, houses, items for survival in the game. Create your own clans and communities around the world in the game to participate in competitions for valuable items and MASD tokens together.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-tap": "^2.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-version-number": "^0.2.4"
+  },
+  "dependencies": {
+    "i18next": "^21.6.6"
+  }
+}

@@ -1,0 +1,45 @@
+<!-- Contact Us form section -->
+<div class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-8 col-lg-6 m-auto">
+                <h1 class="mb-5 text-center" data-translation-id="contactUsFormTitle">Contact Us!</h1>
+                <form method="POST" id="contactUsForm" class="needs-validation" novalidate>
+                    <div class="mb-3">
+                        <input type="text" placeholder="Name" class="form-control py-2" id="userName" name="userName" required>
+                        <div class="invalid-feedback" data-translation-id="invalidValidateName">
+                            Please, introduce yourself!
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" placeholder="Email" class="form-control py-2" id="userEmail" name="userEmail" required>
+                        <div class="invalid-feedback" data-translation-id="invalidValidateEmail">
+                            Please enter a valid email address.
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control py-2" id="userMessage" placeholder="Message..." name="userMessage" required></textarea>
+                        <div class="invalid-feedback" data-translation-id="invalidValidateMessage">
+                            Please, write your message to us!
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="button button-blue mt-3" data-translation-id="submitContactUsFormButton">Send!</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="contactUsFormStatusModal" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header rounded-3 text-dark px-3 py-4 text-center">
+                <h5 class="modal-title" id="contactUsFormStatusModalMessage">Message sent successfully!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact Us form section -->

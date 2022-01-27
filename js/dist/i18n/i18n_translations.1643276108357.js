@@ -1,0 +1,1 @@
+let SiteInternationalization={init:function(){i18next.init({lng:LanguageSelect.detectUserLanguage(),debug:!0,resources:translations}).then(function(){for(var t of Object.keys(translations.en.translation))$(`[data-translation-id="${t}"]`).html(i18next.t(t))})}};$(document).ready(()=>{SiteInternationalization.init()});
